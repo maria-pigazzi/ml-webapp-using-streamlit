@@ -21,7 +21,7 @@ from pickle import load
 # Assign values to types of flowers
 # petal_width, petal_length, sepal_width, sepal_length
 # Connect feature decided by user to model:
-model_file = load(open("C:/Users/Anna/Desktop/Bootcamp/Repositories/ml-webapp-using-streamlit-1/src/decision_tree_iris.sav", "rb"))
+model_file = load(open("/workspaces/ml-webapp-using-streamlit/src/decision_tree_iris.sav", "rb"))
 # Remember to update path when uploading to github
 classes = {
     "0": "Iris setosa",
